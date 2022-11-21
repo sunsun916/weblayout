@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- og -->
+    <meta property="og:title" content="221121_web_이지선">
+    <meta property="og:description" content="webLayout 연습">
+    <meta property="og:image" content="./images/og.png">
+    <meta property="og:image" content="https://sunsun916.github.io/weblayout/images/ogImg.jpg">
+    <meta property="og::url" content="https://sunsun916.github.io/weblayout/weblayout.html">
+    <title>웹레이아웃 연습</title>
+
+     <!-- reset파일 연결 -->
+     <link rel="stylesheet" href="./common/minireset.min.css">
+     <!-- 폰트 -->
+     <link rel="stylesheet" href="./common/font.css">
+
+     <!-- style파일 연결 -->
+     <link rel="stylesheet" href="./style.css">
+      <!-- google icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" />
+
+</head>
+<body>
+    <!-- 1.드롭다운 메뉴  메뉴 누르면 드롭다운 서브메뉴 나오게 -->
+    <!-- 2.위로가기 버튼 -->
+    <!-- 3.backdrop-filter-->
+    <!-- 4.video-->
+    <!-- 5.let's talk 배경 이미지 고정-->
+<div class="container">
+    <header>
+        <div class="wrap">
+        <!-- logo -->
+        <h1 class="logo"><a href="#">logo</a></h1>
+        
+            <ul class="gnb">
+                <li>
+                    <a href="#">ABOUT</a>
+                    <ul class="depth_1">
+                        <li><a href="#">SUB 1</a></li>
+                        <li><a href="#">SUB 2</a></li>
+                        <li><a href="#">SUB 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">SERVICE</a>
+                    <ul class="depth_1">
+                        <li><a href="#">SUB 1</a></li>
+                        <li><a href="#">SUB 2</a></li>
+                        <li><a href="#">SUB 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">PRODUCT</a>
+                    <ul class="depth_1">
+                        <li><a href="#">SUB 1</a></li>
+                        <li><a href="#">SUB 2</a></li>
+                        <li><a href="#">SUB 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">BOARD</a>
+                    <ul class="depth_1">
+                        <li><a href="#">SUB 1</a></li>
+                        <li><a href="#">SUB 2</a></li>
+                        <li><a href="#">SUB 3</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="join">
+                <li><a href="#">LOGIN</a></li>
+                <li><a href="#">JOIN</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="box banner_img"></div>
+ <main>
+    <article class="txtbox">
+        <div class="txt con1">
+            <h3>Branding</h3>
+            <p>끝에 주며, 보내는 봄바람이다. 일월과 어디 있는 그림자는 두손을 위하여서, 끓는 목숨이 구하기 때문이다.</p>
+        </div>
+        <div class="txt con2">
+            <h3>Development</h3>
+            <p>붙잡아 없으면, 웅대한 풍부하게 품었기 것이다. 가장 높고 하늘과 하늘의 가장 같은 얼마나 되는 할지니, 부패뿐이다. 노래하며 그들은 이성은 길을 것은 있는 이상의 풀이 봄바람이다. 굳세게 없으면 얼음 있는가?</p>
+        </div>
+        <div class="txt con3">
+            <h3>Analysis</h3>
+            <p>하늘의 새가 끝에 주며, 보내는 봄바람이다. 바람이 불고 일월과 어디 있는 그림자는 두손을 위하여서, 끓는 목숨이 구하기 때문이다.</p>
+        </div>
+        <div class="txt con4">
+            <h3>Marketiong</h3>
+            <p>새가 청춘을 속에 같으며, 보내는 봄바람이다. 부어 잡은 손과 어느날의 그와 일월과 어디 있는 그림자는 두손을 위하여서, 끓는 목숨이 구하기 때문이다.</p>
+        </div>
+    </article>
+
+
+    <article class="box imgbox">
+        <section class="galleryimg"><div class="backdrop"></div></section>
+        <section class="galleryimg"><div class="backdrop"></div></section>
+        <section class="galleryimg"><div class="backdrop"></div></section>
+        <section class="galleryimg"><div class="backdrop"></div></section>
+        <section class="galleryimg"><div class="backdrop"></div></section>
+        <section class="galleryimg"><div class="backdrop"></div></section>
+        <section class="galleryimg"><div class="backdrop"></div></section>
+    </article>
+
+    <article class=" box business">
+        <div class="txt">
+        <h4>Our Business</h4>
+        <p>We are a passionate digital desing agency that specializes in beautiful and easy-to-use digital design & web development services.</p>
+        </div>
+        <div class="img_4space">
+         <figure>
+          <img src="./images/img1.jpg" alt="사진">
+          <figcaption><strong>1. Brokerage</strong><br>Theme does everything you could possibly want it to do.</figcaption>
+        </figure>
+        <figure>
+          <img src="./images/img2.jpg" alt="사진">
+          <figcaption><strong>2. Banking</strong><br>Theme does everything you could possibly want it to do.</figcaption>
+        </figure>
+        <figure>
+          <img src="./images/img3.jpg" alt="사진">
+          <figcaption><strong>3. Contracts</strong><br>Theme does everything you could possibly want it to do.</figcaption>
+        </figure>
+        <figure>
+          <img src="./images/img4.jpg" alt="사진">
+          <figcaption><strong>4. agency</strong><br>Theme does everything you could possibly want it to do.</figcaption>
+        </figure>
+        </div>
+      </article> 
+    
+    <article class="box youtube">
+        <h4>Our Youtube</h4>
+        <p>동산에는 청춘 가슴에 하였으며, 수 위하여, 뭇 끓는다. 끓는 청춘의 얼음과 때문이다. 밥을 피가 인생에 간에 뿐이다. 군영과 듣기만 찾아다녀도, 있는 꽃이 너의 같은 거선의 긴지라 힘있다. 석가는 인생을 인간은 예가 찾아 곧 불어 무한한 싸인 것이다.</p>
+        <div class="video">
+            <video src="./images/video.mp4" autoplay loop="2" muted></video>
+            <!-- <video src="./images/video.mp4" autoplay loop="2" muted controls></video> -->
+        </div>
+    </article>
+
+
+        <section class="box section_box">
+            <h4>Our Service</h4>
+            <div class="section_title_box">
+                <article>
+                    <img src="./images/bg5.jpg" alt="이미지">
+                    <h5>title 1</h5>
+                    <p>나는 프랑시스 속의 거외다. 하나에 지나가는 멀리 나는 청춘이 북간도에 오는 가득 없이 봅니다.</p>
+                </article>
+                <article>
+                    <img src="./images/bg6.jpg" alt="이미지">
+                    <h5>title 2</h5>
+                    <p>나는 프랑시스 속의 거외다. 하나에 지나가는 멀리 나는 청춘이 북간도에 오는 가득 없이 봅니다.</p>
+                </article>
+                <article>
+                    <img src="./images/bg7.jpg" alt="이미지">
+                    <h5>title 3</h5>
+                    <p>나는 프랑시스 속의 거외다. 하나에 지나가는 멀리 나는 청춘이 북간도에 오는 가득 없이 봅니다.</p>
+                </article>
+                <article>
+                    <img src="./images/bg8.jpg" alt="이미지">
+                    <h5>title 4</h5>
+                    <p>나는 프랑시스 속의 거외다. 하나에 지나가는 멀리 나는 청춘이 북간도에 오는 가득 없이 봅니다.</p>
+                </article>
+             </div>
+         </section>
+
+
+    
+    <article class="box location">
+        <h4>Location</h4>
+        <div class="map">
+            <address>
+                주소: 경기도 수원시 팔달구 매산로<br>연락처:031-123-1234
+            </address>
+        </div>
+    <table>
+        <tr>
+            <th>ADDRESS</th>
+            <td>795 Folsom Ave, Suite 600 San Francisco</td>
+          </tr>
+          <tr>
+            <th>TEL</th>
+            <td>02-1234-5678</td>
+          </tr>
+          <tr>
+            <th>FAX</th>
+            <td>02-1234-5678</td>
+          </tr>
+          <tr>
+            <th>SUB</th>
+            <td>Working at the nexus of aesthetics and sustainability to craft meaningful design ideas that endure.</td>
+          </tr>
+          <tr>
+            <th>bus</th>
+            <td>This theme does everything you could possibly want it to do and, it is beautifully designed.</td>
+          </tr>
+        </table>
+    </article>
+
+    <article class="talk_bg">
+        <div class="talktxt">
+        <h4>Let's talk</h4>
+        <p>Herb multiply also earth one you'll a wherein form creature be.<br>Unto land open creature give their midst together, fruit good thing multiply fill it.</p>
+        <button><a href="#">Contact us</a></button>
+        </div>
+        <div class="talk_bgcover"></div>
+    </article>
+</main>
+
+    <footer class="footer">
+       <p> &copy;Copyright 2022 All Right by EX.</p>
+        <P>Terms of Use / Privacy Policy</P>
+    </footer>
+
+    <div class="top_btn">
+        <a href="#"><span class="material-symbols-outlined">
+        expand_less
+        </span></a>
+
+</div>
+
+</body>
+</html>
